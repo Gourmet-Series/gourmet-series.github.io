@@ -1,6 +1,0 @@
-baseURL = 'http://gourmet-series.github.io/'
-languageCode = 'ko-kr'
-title = 'Gourmet Series'
-theme = 'PaperMod'
-[markup.goldmark.renderer]
-unsafe= true
