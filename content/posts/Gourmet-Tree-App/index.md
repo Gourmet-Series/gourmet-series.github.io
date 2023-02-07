@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-# 고메 트리(Gourmet Tree) 도움말
+# 고메 트리(Gourmet Tree) 지원
 
 ## 목차
 1. [화면 구성](#h1)
@@ -14,23 +14,213 @@ draft: false
 4. [연락처](#h4)
 5. [외부 라이브러리 및 라이센스](#h5)
 
+<style type="text/css">
+/*   table {
+    display: table;
+    border: 1px #bababa solid;
+    padding: 0.3em;
+    border-collapse: collapse;
+    border-radius: 1em;
+    width: 100%;
+}
+
+table.center * {
+    text-align: center;
+}
+
+tr:first-child th {
+    border-bottom: 1px #bababa solid;
+}
+
+td {
+    padding: 0.5em;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+tr:last-child td {
+    border: 0;
+}
+td img {
+    width: 13em;
+    box-shadow: 0 0 0 0 !important;
+}
+
+td.center {
+    text-align: center;
+}
+
+td.tabbed {
+    padding-left: 5%;
+}
+
+td pre code {
+    white-space: pre !important;
+    word-wrap: normal !important;
+}
+
+*/
+
+td img {
+    width: 13em;
+    box-shadow: 0 0 0 0 !important;
+}
+
+
+img {
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 7px 10px 2px #bababa;
+}
+
+img.icon {
+    display: inline;
+    box-shadow: 0 0 0 0 !important;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+}
+
+
+h1 {
+    margin-top: 3.5em;
+}
+
+h1, h2, h3, h4, h5 {
+    padding: 0.5em 0 0.3em;
+    white-space: nowrap;
+}
+
+th {
+    padding: 0.5em;
+    font-weight: bolder;
+}
+
+strong {
+    background-color: black;
+    color: white;
+    padding: 0.1rem 0.25rem 0.15rem 0.25rem;
+    border-radius: 0.2rem;
+    border: 0;
+    font-size: 0.9rem;
+    box-decoration-break: clone;
+    vertical-align: middle;
+    line-height: 1.3 rem;
+    font-weight: 700;
+    /*font-family: "조선견고딕";*/
+    font-family: sans-serif;
+}
+
+.grey {
+    padding: 0.1rem 0.15rem 0.1rem 0.15rem;
+    background-color: #808080 !important;
+}
+
+.outline {
+    padding: 0 0.15rem 0 0.15rem;
+    border-radius: 0.2rem;
+    border: 0.1rem black solid !important;
+    background-color: white !important;
+    color: black;
+}
+
+.outline u {
+    text-decoration: underline !important;
+    border-bottom: 0 !important;
+    font-weight: inherit;
+}
+
+.outline_grey {
+    padding: 0 0.15rem 0 0.15rem;
+    border-radius: 0.2rem;
+    border: 0.1rem #808080 solid !important;
+    background-color: #e5e5e5 !important;
+    color: black;
+}
+
+/*strong * {
+    color: white !important;
+}*/
+
+b {
+    font-weight: bold !important;
+    /*padding: 0 0.25rem 0 0.25rem;*/
+    border: 0;
+    border-radius: 0.2rem;
+    background-color: white;
+    background-image: -webkit-linear-gradient(top, white 40%, #e5e5e5 41%, #e5e5e5 84%, white 85%);
+    font-size: 0.95rem;
+    margin-bottom: 0.2em;
+    display: inline-block;
+}
+
+b u
+{
+    font-weight: bold !important;
+    border-bottom: 3px black double !important;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 3px #808080 double !important;
+    margin-bottom: 0.2em;
+    display: inline-block;
+}
+
+i b {
+    font-size:0.9rem !important;
+    font-family: serif !important;
+}
+
+i u
+{
+    font-family: serif !important;
+}
+
+i {
+    font-size:0.9rem;
+    color: #4a4a4a;
+    font-style: normal;
+    font-family: serif !important;
+}
+
+p {
+    line-height: 180%;
+
+}
+li {
+    line-height: 180%;
+
+}
+
+pre code {
+    display: block;
+    white-space:pre-line; word-wrap:break-word;
+}
+</style>
 
 <h2 id="h1">1. 화면 구성</h2>
-{{ $image := .Resources.GetMatch "img1.png" }}
-<img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+<img src="img1.png" />
 
 - Gourmet Tree는 에디터(좌측)와 미리보기(우측)로 구성되어 있습니다.
+
 - <img class=icon src="icons/slice1.png"> 버튼은 파일을 저장하고, 현재 편집창을 닫습니다.
+
 - <img class=icon src="icons/slice2.png"> 버튼은 도움말을 다시 보여줍니다.
+
 - <img class=icon src="icons/slice3.png"> 버튼은 미리보기 창을 보여줍니다.
+
 - <img class=icon src="icons/slice4.png"> 버튼은 내보내기 메뉴를 보여줍니다. 
+
 - <img class=icon src="icons/slice5.png"> 버튼은 미리보기를 넓게 보여주거나, 좁게 보여줍니다.
 
 
 <h2 id="h2">2. 문법</h2>
+
 - 하위항목을 지정하기 위해서는 탭을 사용하세요.
+
 - 줄 맨 끝에서 '\\\\'<i>역슬래시 두 개</i> 기호를 사용하여 아래로 내려간 트리를 그리세요.
 	- \* 역슬래시는 대체로 엔터 혹은 리턴키(⮐) 위에 있습니다.
+
 - 줄 내에서도 '\\\\' 기호를 사용하여 줄바꿈을 할 수 있습니다.
 
 <table>
@@ -39,14 +229,14 @@ draft: false
 	<tr>
 		<td class=tabbed>
 
-	```
-	항목 1
-	 ⇥ 항목 1-1
-	 ⇥ 항목 1-2
-	항목 2
-	 ⇥ 항목 3
-	 ⇥  ⇥ 항목 4
-	```
+```
+항목 1
+   ⇥ 항목 1-1
+   ⇥ 항목 1-2
+항목 2
+   ⇥ 항목 3
+   ⇥  ⇥ 항목 4
+```
 
 </td>
 	<td class=center><img src="img2.png"></td>
@@ -60,6 +250,7 @@ draft: false
  	 ⇥  ⇥ 항목 2-2
  ⇥ 항목 3
 ```
+
 </td>
 <td class=center><img src="img3.png"></td>
 </tr>
@@ -70,12 +261,14 @@ draft: false
 item 1
  ⇥ newline \\ here
 ```
+
 </td>
 <td class=center><img src="img4.png"></td>
 </tr>
 </table>
 
 - 텍스트를 강조하거나, 밑줄을 긋고 배경색깔을 바꿀 수 있습니다.
+
 - "\*, \_" 기호를 표시하기 위해서는 앞에 "\\" 기호를 붙여서 "\\\*", "\\\_"와 같은 형태로 사용해주세요.
 
 <table class=center>
@@ -127,28 +320,35 @@ item 1
 </table>
 
 <h2 id="h3">3. 내보내기</h2>
+
 - 그림으로 내보내기, PDF로 내보내기 기능을 각 지원합니다.
+
 - PDF로 내보내기는 단일 페이지로 내보내기, 여러 페이지로 내보내기를 지원합니다.
+
 	- 단일 페이지로 내보내기는 문서를 단일 페이지로 이루어진 PDF로 내보냅니다.
+
 	- 여러 페이지로 내보내기는 트리를 A4 크기의 여러 페이지로 이루어진 PDF로 내보냅니다.
+
 - 그림으로 내보내기
+
 	- PNG 파일로 내보냅니다.
+
 - 문서의 길이가 기기에서 처리 가능한 길이를 넘을 경우, 여러 페이지 PDF 내보내기만 가능합니다.
 
 
 <h2 id="h4">4. 연락처</h2>
+
 - <a href="mailto:gourmet.series@icloud.com">gourmet.series@icloud.com</a>
 
 
 <h2 id="h5">5. 외부 라이브러리 및 라이센스</h2>
  <b>Code Editor View</b> Copyright [2021..2022] Manuel M. T. Chakravarty. <a href="https://github.com/mchakravarty/CodeEditorView">[🔗]</a>
+ Distributed under the Apache-2.0 license — see the below for details.
  
  <b>작명 도움: MIJI</b>
 
-Distributed under the Apache-2.0 license — see the below for details.
 
 ```
-
                               Apache License
                         Version 2.0, January 2004
                      http://www.apache.org/licenses/
