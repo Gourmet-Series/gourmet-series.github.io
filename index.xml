@@ -9,6 +9,21 @@
     <lastBuildDate>Wed, 08 Feb 2023 04:27:26 +0900</lastBuildDate><atom:link href="http://gourmet-series.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gourmet Tree App</title>
+      <link>http://gourmet-series.github.io/posts/gourmet-tree-app-en/</link>
+      <pubDate>Wed, 08 Feb 2023 04:27:26 +0900</pubDate>
+      
+      <guid>http://gourmet-series.github.io/posts/gourmet-tree-app-en/</guid>
+      <description>Gourmet Tree User Guide Index Screen Composition Grammar Export Contact External libraries and licenses 1. Screen Composition The Gourmet Tree consists of an editor panel(left side) and a preview panel(right side).
+button saves the file and closes the current edit window.
+button shows the help again.
+button shows a preview window.
+button shows the export menu.
+button shows the preview wide or narrow.
+2. Grammar Use tabs to specify subitems.</description>
+    </item>
+    
+    <item>
+      <title>Gourmet Tree App</title>
       <link>http://gourmet-series.github.io/posts/gourmet-tree-app/</link>
       <pubDate>Wed, 08 Feb 2023 04:27:26 +0900</pubDate>
       
