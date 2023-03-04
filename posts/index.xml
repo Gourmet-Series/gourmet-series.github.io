@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Gourmet Series</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 08 Feb 2023 04:27:26 +0900</lastBuildDate><atom:link href="http://gourmet-series.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 04:27:26 +0900</lastBuildDate><atom:link href="http://gourmet-series.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>법퍼링 법전 도움말</title>
+      <link>http://gourmet-series.github.io/posts/beoppering-ko/</link>
+      <pubDate>Sat, 04 Mar 2023 04:27:26 +0900</pubDate>
+      
+      <guid>http://gourmet-series.github.io/posts/beoppering-ko/</guid>
+      <description>법퍼링 법전 도움말 면책 법퍼링 법전(이하 &amp;ldquo;당해 앱&amp;quot;이라고 합니다)은 국가법령정보센터 (https://law.go.kr) 이용의 편의를 제공하기 위해 무료로 제공되는 앱으로 내용의 오류, 또는 처리 과정에서의 오류가 있을 수 있습니다.
+당해 앱은 위 오류 등을 포함하여 법령 정보에 관한 내용 및 이 앱을 사용하며 발생하는 문제에 관하여 어떤 책임도 지지 않습니다.
+우측 상단의 ✕ 버튼을 누르거나, 이 창을 닫아 당해 앱의 이용을 계속함으로써 위 내용에 동의함을 확인합니다.
+목차 사용 안내 가. 하단 탭 버튼 나.</description>
+    </item>
+    
     <item>
       <title>Gourmet Tree App</title>
       <link>http://gourmet-series.github.io/posts/gourmet-tree-app-en/</link>
@@ -49,18 +61,6 @@ button shows the preview wide or narrow.
 The developer has not embedded any third-party advertisements in the program, so no information about you is passed directly or indirectly to third parties.
 Gourmet Tree App의 개인정보 취급방침 (KOR) Gourmet Tree의 개발자(이하 &amp;lsquo;개발자&amp;rsquo;)는 사용자의 어떠한 정보도 수집하지 않습니다.
 개발자는 당해 프로그램에 별도의 제3자 광고를 삽입하지 않았기 때문에, 달리 사용자의 어떠한 정보가 제3자에게 직 · 간접적으로도 전달되지 않습니다.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://gourmet-series.github.io/posts/beoppering-ko/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://gourmet-series.github.io/posts/beoppering-ko/</guid>
-      <description>법퍼링 법전 도움말 면책 법퍼링 법전(이하 &amp;ldquo;당해 앱&amp;quot;이라고 합니다)은 국가법령정보센터 (https://law.go.kr) 이용의 편의를 제공하기 위해 무료로 제공되는 앱으로 내용의 오류, 또는 처리 과정에서의 오류가 있을 수 있습니다.
-당해 앱은 위 오류 등을 포함하여 법령 정보에 관한 내용 및 이 앱을 사용하며 발생하는 문제에 관하여 어떤 책임도 지지 않습니다.
-우측 상단의 ✕ 버튼을 누르거나, 이 창을 닫아 당해 앱의 이용을 계속함으로써 위 내용에 동의함을 확인합니다.
-목차 사용 안내 가. 하단 탭 버튼 나.</description>
     </item>
     
   </channel>
