@@ -25,9 +25,10 @@ The developer has not embedded any third-party advertisements in the program, so
       <pubDate>Sat, 04 Mar 2023 04:27:26 +0900</pubDate>
       
       <guid>http://gourmet-series.github.io/posts/beoppering-ko/</guid>
-      <description>면책 법퍼링 법전(이하 &amp;ldquo;당해 앱&amp;quot;이라고 합니다)은 국가법령정보센터 (https://law.go.kr) 이용의 편의를 제공하기 위해 무료로 제공되는 앱으로 내용의 오류, 또는 처리 과정에서의 오류가 있을 수 있습니다.
+      <description>이 문서는 법퍼링 법전의 사용지원을 위한 문서입니다.
+면책 법퍼링 법전(이하 &amp;ldquo;당해 앱&amp;quot;이라고 합니다)은 국가법령정보센터 (https://law.go.kr) 이용의 편의를 제공하기 위해 무료로 제공되는 앱으로 내용의 오류, 또는 처리 과정에서의 오류가 있을 수 있습니다.
 당해 앱은 위 오류 등을 포함하여 법령 정보에 관한 내용 및 이 앱을 사용하며 발생하는 문제에 관하여 어떤 책임도 지지 않습니다.
-목차 사용 안내 가. 하단 탭 버튼 나. 보기 탭 다. 검색 탭 연락처 외부 라이브러리 및 라이센스 1. 사용 안내 가. 하단 탭 버튼 당해 앱의 탭은 즐겨찾기, 보기, 법령검색으로 구성되어 있습니다.</description>
+목차 사용 안내 가. 하단 탭 버튼 나. 보기 탭 다. 검색 탭 연락처 외부 라이브러리 및 라이센스 1.</description>
     </item>
     
     <item>
@@ -64,15 +65,15 @@ At the end of the line, use the symbol &amp;lsquo;\\&amp;rsquo; two backslashes 
       <pubDate>Wed, 08 Feb 2023 04:27:26 +0900</pubDate>
       
       <guid>http://gourmet-series.github.io/posts/gourmet-tree-app/</guid>
-      <description>목차 화면 구성 문법 내보내기 연락처 외부 라이브러리 및 라이센스 1. 화면 구성 Gourmet Tree는 에디터(좌측)와 미리보기(우측)로 구성되어 있습니다.
+      <description>❃ 이 문서는 Gourmet Tree의 사용지원을 위한 문서입니다.
+목차 화면 구성 문법 내보내기 연락처 외부 라이브러리 및 라이센스 1. 화면 구성 Gourmet Tree는 에디터(좌측)와 미리보기(우측)로 구성되어 있습니다.
 버튼은 파일을 저장하고, 현재 편집창을 닫습니다.
 버튼은 도움말을 다시 보여줍니다.
 버튼은 미리보기 창을 보여줍니다.
 버튼은 내보내기 메뉴를 보여줍니다.
 버튼은 미리보기를 넓게 보여주거나, 좁게 보여줍니다.
 2. 문법 하위항목을 지정하기 위해서는 탭을 사용하세요.
-줄 맨 끝에서 &amp;lsquo;\\&amp;rsquo;역슬래시 두 개 기호를 사용하여 아래로 내려간 트리를 그리세요.
-* 역슬래시는 대체로 엔터 혹은 리턴키(⮐) 위에 있습니다. 줄 내에서도 &amp;lsquo;\\&amp;rsquo; 기호를 사용하여 줄바꿈을 할 수 있습니다.</description>
+줄 맨 끝에서 &amp;lsquo;\\&amp;rsquo;역슬래시 두 개 기호를 사용하여 아래로 내려간 트리를 그리세요.</description>
     </item>
     
   </channel>
